@@ -1,0 +1,467 @@
+{
+    "total_pairs_compared": 1,
+    "successful_comparisons": 1,
+    "failed_comparisons": 0,
+    "results": [
+        {
+            "document_1": {
+                "title": "Specifications",
+                "sha256": "8f9178c2c2a6b3dcc45dd30fd296bcf9c5e6316bbae8745a7b4323ad4b4d8b2a",
+                "source_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_G.pdf",
+                "detected_category": {
+                    "category": "Diploma",
+                    "diploma_mentions": 7,
+                    "degree_mentions": 0
+                },
+                "duration_information": [
+                    {
+                        "page": 2,
+                        "years": 3,
+                        "context": "scholarship. \n \n4.0 AMOUNT OF SCHOLARSHIP: \n1) Rs. 50,000/- per annum for every year of study i.e. maximum 3 years for first year \nadmitted students and maximum 2 years second year admitted students through lateral"
+                    },
+                    {
+                        "page": 2,
+                        "years": 2,
+                        "context": ",000/- per annum for every year of study i.e. maximum 3 years for first year \nadmitted students and maximum 2 years second year admitted students through lateral \nentry as lump sum amount towards payment of college"
+                    }
+                ]
+            },
+            "document_2": {
+                "title": "Specifications",
+                "sha256": "06ebed9e50a47ae76cba985ddde78cd65f19f2193b0e4c9c164fff529580474c",
+                "source_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+                "detected_category": {
+                    "category": "Degree",
+                    "diploma_mentions": 0,
+                    "degree_mentions": 7
+                },
+                "duration_information": [
+                    {
+                        "page": 2,
+                        "years": 4,
+                        "context": "e \nscholarship. \n4.0 AMOUNT OF SCHOLARSHIP: \n1) Rs. 50,000/- per annum for every year of study i.e. maximum 4 years for first year \nadmitted students and maximum 3 years for second year admitted students through lat"
+                    },
+                    {
+                        "page": 2,
+                        "years": 3,
+                        "context": ",000/- per annum for every year of study i.e. maximum 4 years for first year \nadmitted students and maximum 3 years for second year admitted students through lateral \nentry as lump sum amount towards payment of coll"
+                    }
+                ]
+            },
+            "text_similarity": 0.5844,
+            "relationship_analysis": {
+                "relationship": "related_policy_documents",
+                "confidence": "heuristic",
+                "reason": "Different course categories detected: Diploma and Degree.",
+                "requires_human_review": true
+            },
+            "total_changes": 12,
+            "changes": [
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "course_category_difference",
+                        "description": "The text contains different course categories.",
+                        "policy_impact": "May affect which students or courses are covered."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 1,
+                            "text": "STUDENT (DIPLOMA)"
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 1,
+                            "text": "STUDENT (DEGREE)"
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "course_category_difference",
+                        "description": "The text contains different course categories.",
+                        "policy_impact": "May affect which students or courses are covered."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 2,
+                            "text": "ABLED STUDENT (DIPLOMA)"
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 2,
+                            "text": "ABLED STUDENT (DEGREE)"
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "course_category_difference",
+                        "description": "The text contains different course categories.",
+                        "policy_impact": "May affect which students or courses are covered."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 2,
+                            "text": "1) The candidate should be admitted to First year of Diploma level course OR Second year"
+                        },
+                        {
+                            "page": 2,
+                            "text": "of Diploma level course through lateral entry in any of the AICTE approved Institution of"
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 2,
+                            "text": "1) The candidate should be admitted to First year of Degree level course OR Second year of"
+                        },
+                        {
+                            "page": 2,
+                            "text": "Degree level course through lateral entry in any of the AICTE approved Institution of"
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "eligibility_related_difference",
+                        "description": "The text contains potentially relevant eligibility information.",
+                        "policy_impact": "Requires review to determine eligibility impact."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 2,
+                            "text": "current financial year. A valid income certificate issued by State/UT Government need to"
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 2,
+                            "text": "current financial year. A valid income certificate issued by State /UT Government need to"
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "course_category_difference",
+                        "description": "The text contains different course categories.",
+                        "policy_impact": "May affect which students or courses are covered."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 2,
+                            "text": "All eligible specially-abled student admitted to First year of Diploma level course OR Second"
+                        },
+                        {
+                            "page": 2,
+                            "text": "year of Diploma level course through lateral entry in any of the AICTE approved Institution will"
+                        },
+                        {
+                            "page": 2,
+                            "text": "get the scholarship."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 2,
+                            "text": "All eligible specially-abled student admitted to First year of Degree level course OR Second year"
+                        },
+                        {
+                            "page": 2,
+                            "text": "of Degree level course through lateral entry in any of the AICTE approved Institution will get the"
+                        },
+                        {
+                            "page": 2,
+                            "text": "scholarship."
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "duration_difference",
+                        "description": "The text contains different duration values.",
+                        "policy_impact": "May affect the maximum scholarship duration."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 2,
+                            "text": "1) Rs. 50,000/- per annum for every year of study i.e. maximum 3 years for first year"
+                        },
+                        {
+                            "page": 2,
+                            "text": "admitted students and maximum 2 years second year admitted students through lateral"
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 2,
+                            "text": "1) Rs. 50,000/- per annum for every year of study i.e. maximum 4 years for first year"
+                        },
+                        {
+                            "page": 2,
+                            "text": "admitted students and maximum 3 years for second year admitted students through lateral"
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "formatting_difference",
+                        "description": "The content is the same after text normalization.",
+                        "policy_impact": "No substantive change detected."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 3,
+                            "text": "Scholarship Portal (NSP) after initiation of application process and notice to be published on"
+                        },
+                        {
+                            "page": 3,
+                            "text": "AICTE website."
+                        },
+                        {
+                            "page": 3,
+                            "text": "2) The host institution where the candidate is studying, required to verify the online application."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 3,
+                            "text": "Scholarship Portal (NSP) after initiation of application process and notice to be published"
+                        },
+                        {
+                            "page": 3,
+                            "text": "on AICTE website."
+                        },
+                        {
+                            "page": 3,
+                            "text": "2) The host institution where the candidate is studying, required to verify the online"
+                        },
+                        {
+                            "page": 3,
+                            "text": "application."
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "course_category_difference",
+                        "description": "The text contains different course categories.",
+                        "policy_impact": "May affect which students or courses are covered."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 3,
+                            "text": "admission in diploma course should not be more than two years."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 3,
+                            "text": "admission in degree course should not be more than two years."
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "formatting_difference",
+                        "description": "The content is the same after text normalization.",
+                        "policy_impact": "No substantive change detected."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 3,
+                            "text": "3) Incomplete applications will be summarily rejected. Only verified online applications will be"
+                        },
+                        {
+                            "page": 3,
+                            "text": "considered for the award of scholarship."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 3,
+                            "text": "3) Incomplete applications will be summarily rejected. Only verified online applications will"
+                        },
+                        {
+                            "page": 3,
+                            "text": "be considered for the award of scholarship."
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "formatting_difference",
+                        "description": "The content is the same after text normalization.",
+                        "policy_impact": "No substantive change detected."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 3,
+                            "text": "other source during her/ his course of study in the Institute. In case of receipt of any financial"
+                        },
+                        {
+                            "page": 3,
+                            "text": "assistance from any other sources, the scholarship shall be discontinued and the entire"
+                        },
+                        {
+                            "page": 3,
+                            "text": "amount of scholarship will have to be refunded to AICTE by D/Draft drawn in favour of"
+                        },
+                        {
+                            "page": 3,
+                            "text": "“Member Secretary, AICTE” payable at New Delhi."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 3,
+                            "text": "other source during her/ his course of study in the Institute. In case of receipt of any"
+                        },
+                        {
+                            "page": 3,
+                            "text": "financial assistance from any other sources, the scholarship shall be discontinued and the"
+                        },
+                        {
+                            "page": 3,
+                            "text": "entire amount of scholarship will have to be refunded to AICTE by D/Draft drawn in"
+                        },
+                        {
+                            "page": 3,
+                            "text": "favour of “Member Secretary, AICTE” payable at New Delhi."
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "formatting_difference",
+                        "description": "The content is the same after text normalization.",
+                        "policy_impact": "No substantive change detected."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 3,
+                            "text": "7) For converting Cumulative Grade Point Average (CGPA) to percentage, multiplying factor will"
+                        },
+                        {
+                            "page": 3,
+                            "text": "be 9.5 i.e. to convert the CGPA into percentage; CGPA X 9.5 will give the percentage."
+                        },
+                        {
+                            "page": 3,
+                            "text": "8) In case both CGPA & total marks are given in the mark sheet, total marks will be considered"
+                        },
+                        {
+                            "page": 3,
+                            "text": "for determining percentage."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 3,
+                            "text": "7) For converting Cumulative Grade Point Average (CGPA) to percentage, multiplying factor"
+                        },
+                        {
+                            "page": 3,
+                            "text": "will be 9.5 i.e. to convert the CGPA into percentage; CGPA X 9.5 will give the"
+                        },
+                        {
+                            "page": 3,
+                            "text": "percentage."
+                        },
+                        {
+                            "page": 3,
+                            "text": "8) In case both CGPA & Total marks are given in the mark sheet, total marks will be"
+                        },
+                        {
+                            "page": 3,
+                            "text": "considered for determining percentage."
+                        }
+                    ]
+                },
+                {
+                    "change_type": "modified",
+                    "classification": {
+                        "category": "other_textual_difference",
+                        "description": "Other textual difference detected.",
+                        "policy_impact": "Meaning requires further review."
+                    },
+                    "document_1_text": [
+                        {
+                            "page": 3,
+                            "text": "10) Provisional list of shortlisted candidates will be uploaded on the AICTE web portal. In case,"
+                        },
+                        {
+                            "page": 3,
+                            "text": "candidate has any query about merit list of scholarship, they may raise their grievances"
+                        },
+                        {
+                            "page": 3,
+                            "text": "within a month. No query regarding merit list will be entertained after one-month duration"
+                        },
+                        {
+                            "page": 3,
+                            "text": "from the date of publishing of merit list on AICTE website."
+                        },
+                        {
+                            "page": 4,
+                            "text": "11) Query regarding non-payment of the scholarship due to invalid/wrong account number will"
+                        },
+                        {
+                            "page": 4,
+                            "text": "be entertained only upto six months from the date of publishing of merit list on AICTE"
+                        },
+                        {
+                            "page": 4,
+                            "text": "website."
+                        }
+                    ],
+                    "document_2_text": [
+                        {
+                            "page": 3,
+                            "text": "10) Provisional list of shortlisted candidates will be uploaded on the AICTE web portal. In"
+                        },
+                        {
+                            "page": 3,
+                            "text": "case, candidate has any query about merit list of scholarship, they may raise their"
+                        },
+                        {
+                            "page": 3,
+                            "text": "grievances within a month. No query regarding merit list will be entertained after one-"
+                        },
+                        {
+                            "page": 3,
+                            "text": "month duration from the date of publishing of merit list on AICTE website."
+                        },
+                        {
+                            "page": 4,
+                            "text": "11) Query regarding non-payment of the scholarship due to invalid/ wrong account number"
+                        },
+                        {
+                            "page": 4,
+                            "text": "will be entertained only upto six months from the date of publishing of merit list on"
+                        },
+                        {
+                            "page": 4,
+                            "text": "AICTE website."
+                        }
+                    ]
+                }
+            ],
+            "status": "completed",
+            "requires_human_review": true,
+            "policy_amendment_confirmed": false,
+            "note": "Detected differences are not automatically confirmed policy amendments."
+        }
+    ]
+}

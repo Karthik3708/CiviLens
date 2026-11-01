@@ -1,0 +1,52 @@
+{
+    "total_records": 46,
+    "unique_documents": 42,
+    "exact_duplicate_groups": [
+        {
+            "sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
+            "duplicate_count": 2,
+            "source_urls": [
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf",
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf"
+            ]
+        },
+        {
+            "sha256": "8253452054ed9ade4e274b6d61b179ddff55ab91feabb86f21520d1840c0f06d",
+            "duplicate_count": 2,
+            "source_urls": [
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_F.pdf",
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_F.pdf"
+            ]
+        },
+        {
+            "sha256": "3e0f8a30287cf70211866bb0d380259d2807e0100aa7598cb49f7e9a63f455fc",
+            "duplicate_count": 2,
+            "source_urls": [
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_F.pdf",
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2011_F.pdf"
+            ]
+        },
+        {
+            "sha256": "f5298fa4f0dcdd4efea9e42595683dc51417ffae2b491dfce861a30b734dc38f",
+            "duplicate_count": 2,
+            "source_urls": [
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_F.pdf",
+                "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_F.pdf"
+            ]
+        }
+    ],
+    "exact_duplicate_group_count": 4,
+    "near_duplicate_pairs": [
+        {
+            "document_1": "Specifications",
+            "document_2": "Specifications",
+            "sha256_1": "8f9178c2c2a6b3dcc45dd30fd296bcf9c5e6316bbae8745a7b4323ad4b4d8b2a",
+            "sha256_2": "06ebed9e50a47ae76cba985ddde78cd65f19f2193b0e4c9c164fff529580474c",
+            "similarity": 0.9559,
+            "status": "needs_review"
+        }
+    ],
+    "near_duplicate_pair_count": 1,
+    "similarity_threshold": 0.9,
+    "original_pdfs_deleted": false
+}
