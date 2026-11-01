@@ -9,11 +9,17 @@ Designed with Google Stitch MCP.
 import os
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 
 import streamlit as st
 import pandas as pd
+
+# Ensure backend directory is in sys.path regardless of execution working directory
+BACKEND_DIR = Path(__file__).resolve().parent
+if str(BACKEND_DIR) not in sys.path:
+    sys.path.insert(0, str(BACKEND_DIR))
 
 # Load custom data loader
 import data_loader
