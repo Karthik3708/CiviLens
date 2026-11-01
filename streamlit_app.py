@@ -15,3 +15,4 @@ if str(backend_dir) not in sys.path:
 # Execute the main Streamlit application
 backend_app = backend_dir / "streamlit_app.py"
 runpy.run_path(str(backend_app), run_name="__main__")
+
